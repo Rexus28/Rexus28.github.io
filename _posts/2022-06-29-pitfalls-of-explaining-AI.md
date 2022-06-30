@@ -17,12 +17,12 @@ Getting a glimpse of how an algorithm operates can let you see what inputs it re
 
 Another advantage of explainable AI is understanding when they fail. No algorithm is perfect, but knowing when it can or cannot be trusted is important and it can also reveal bias. This is what ProPublica showed when they analyzed 10,000 COMPAS records from Broward County, FL finding it was only 61% accurate when predicting people as high risk of recidivism (or reoffending) within two years of an arrest, but that accuracy dropped to 20% when predicting violent recidivism (Angwin et al. 2016; Larson et al. 2016). Meaning COMPAS was not much better than a coin flip for determining who was likely to reoffend and far less accurate at predicting future violent crimes.
 
-More interesting was how COMPAS failed differently for black and white defendants. Black defendants were twice as likely to be mislabeled as higher risk (at 45%) than white defendants (23%), and white defendants were more likely to be mislabeled as lower risk (48%) compared to black defendants (28%) (Angwin et al. 2016; Larson et al. 2016). Essentially, what ProPublica found is that COMPAS failed in a way that benefited white defendants and punished black defendants. 
+More interesting was how COMPAS failed differently for Black and white defendants. Black defendants were twice as likely to be mislabeled as higher risk (at 45%) than white defendants (23%), and white defendants were more likely to be mislabeled as lower risk (48%) compared to Black defendants (28%) (Angwin et al. 2016; Larson et al. 2016). Essentially, what ProPublica found is that COMPAS failed in a way that benefited white defendants and punished Black defendants. 
 
 ProPublica revealed significant bias in the outcomes of COMPAS and highlighted the importance of understanding algorithmic failures. But, COMPAS does not explicitly use race to make its predictions and most of the 137 input fields are multiple choice or yes-or-no options, only a few are manual inputs for prior convictions and age (Rudin 2018; Corbett-Davies et al. 2016). So, why did ProPublica’s findings show racial bias in the COMPAS scores?
 
 ## The pitfalls of explainable AI
-First off, COMPAS may be reflecting bias in the data used to create the algorithm. It was “designed by experts based on carefully designed surveys and expertise” (Rudin 2018)[^2], but they still relied on data about rearrests which can be a biased measure, as predominantly black neighborhoods are more heavily policed resulting in more arrests (Corbett-Davies et al. 2016). Any bias in the data, despite a developer’s best intentions, can get picked up by the algorithm. The problem is exacerbated by hiding the inner workings of COMPAS, as we cannot see what inputs lead to the biased decisions and where to correct them.
+First off, COMPAS may be reflecting bias in the data used to create the algorithm. It was “designed by experts based on carefully designed surveys and expertise” (Rudin 2018)[^2], but they still relied on data about rearrests which can be a biased measure, as predominantly Black neighborhoods are more heavily policed resulting in more arrests (Corbett-Davies et al. 2016). Any bias in the data, despite a developer’s best intentions, can get picked up by the algorithm. The problem is exacerbated by hiding the inner workings of COMPAS, as we cannot see what inputs lead to the biased decisions and where to correct them.
 
 ProPublica attempted to quantify what inputs COMPAS is relying on by building a logistic regression model, a type of machine learning model. Essentially building one algorithm they understood in order to predict the outcome of another algorithm they couldn’t get access to. But, this is where ProPublica’s analysis starts to go wrong. Despite being able to model the COMPAS predictions with high-fidelity, they made assumptions about how COMPAS actually works, namely they use race and assume important features, such as age, are linear when COMPAS is most likely non-linear (Rudin 2018, Rudin et al. 2018). This means ProPublica’s model simplifies the relationship age plays when predicting recidivism, so their model might have to rely more other variables, like race, sex, and number of priors. They also include race, which COMPAS does not, meaning ProPublica’s model is not a faithful representation of how COMPAS makes its decisions (Rudin 2018).
 
@@ -35,20 +35,16 @@ ProPublica highlighted the systemic issues in our criminal justice system, but p
 
 And therein lies the solution: creating algorithms that are transparent and easy for people to interpret. Adding transparency directly into both the model and the way it’s used is the best direction moving forward. We need to create human understanding of AI algorithms along the entire process: from the developers, to users in the criminal justice system including judges, and even the people impacted like the defendants.
 
-[^1]: The terms AI and algorithm are used interchangeably in this post.
-
-[^2]: COMPAS is not a machine or deep learning model (what we typically think of as AI), but it does attempt to automate the human decision making process and that does make it a form of AI.
-
 ## References
-1. Rebecca Wexler. “Opinion \| When a Computer Program Keeps You in Jail.” *New York Times*. 2017 June 13. Accessed 2022 March 8. https://www.nytimes.com/2017/06/13/opinion/how-computers-are-harming-criminal-justice.html
+1. Rebecca Wexler. “Opinion \| When a Computer Program Keeps You in Jail.” *New York Times*. 2017 June 13. Accessed 2022 March 8. [https://www.nytimes.com/2017/06/13/opinion/how-computers-are-harming-criminal-justice.html](https://www.nytimes.com/2017/06/13/opinion/how-computers-are-harming-criminal-justice.html)
 
-2. Sam Corbett-Davies, Emma Pierson, Avi Feller and Sharad Goel. “A computer program used for bail and sentencing decisions was labeled biased against blacks. It’s actually not that clear.” *Washington Post*. October 17, 2016. Accessed 2022 March 9. https://www.washingtonpost.com/news/monkey-cage/wp/2016/10/17/can-an-algorithm-be-racist-our-analysis-is-more-cautious-than-propublicas/
+2. Sam Corbett-Davies, Emma Pierson, Avi Feller and Sharad Goel. “A computer program used for bail and sentencing decisions was labeled biased against Blacks. It’s actually not that clear.” *Washington Post*. October 17, 2016. Accessed 2022 March 9. [https://www.washingtonpost.com/news/monkey-cage/wp/2016/10/17/can-an-algorithm-be-racist-our-analysis-is-more-cautious-than-propublicas/](https://www.washingtonpost.com/news/monkey-cage/wp/2016/10/17/can-an-algorithm-be-racist-our-analysis-is-more-cautious-than-propublicas/)
 
-3. Julia Angwin, Jeff Larson, Surya Mattu and Lauren Kirchner. “Machine Bias: There’s software used across the country to predict future criminals. And it’s biased against blacks.” *ProPublica*. May 23, 2016. Accessed 2022 March 8. https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
+3. Julia Angwin, Jeff Larson, Surya Mattu and Lauren Kirchner. “Machine Bias: There’s software used across the country to predict future criminals. And it’s biased against Blacks.” *ProPublica*. May 23, 2016. Accessed 2022 March 8. [https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
 
-4. Matthew Stepka. “Law Bots: How AI Is Reshaping the Legal Profession.” *American Bar Association*. 2022 March 2. Accessed: 2022 March 9. https://www.americanbar.org/groups/business_law/publications/blt/2022/02/law-bots/
+4. Matthew Stepka. “Law Bots: How AI Is Reshaping the Legal Profession.” *American Bar Association*. 2022 March 2. Accessed: 2022 March 9. [https://www.americanbar.org/groups/business_law/publications/blt/2022/02/law-bots/](https://www.americanbar.org/groups/business_law/publications/blt/2022/02/law-bots/)
 
-5. Larson, Jeff, et al. "How we analyzed the COMPAS recidivism algorithm." *ProPublica (5 2016)* 9.1 (2016): 3-3. https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm
+5. Larson, Jeff, et al. "How we analyzed the COMPAS recidivism algorithm." *ProPublica (5 2016)* 9.1 (2016): 3-3. [https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm](https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm)
 
 6. Rudin, Cynthia. "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead." *arXiv preprint arXiv:1811.10154* (2018).
 
@@ -57,4 +53,10 @@ And therein lies the solution: creating algorithms that are transparent and easy
 8. Fisher, Aaron, Cynthia Rudin, and Francesca Dominici. "All Models are Wrong, but Many are Useful: Learning a Variable's Importance by Studying an Entire Class of Prediction Models Simultaneously." *J. Mach. Learn. Res*. 20.177 (2019): 1-81.
 
 9. Lakkaraju, Himabindu, and Osbert Bastani. ""How do I fool you?": Manipulating User Trust via Misleading Black Box Explanations." *arXiv preprint arXiv:1911.06473* (2019).
+
+
+---
+[^1]: The terms AI and algorithm are used interchangeably in this post.
+
+[^2]: COMPAS is not a machine or deep learning model (what we typically think of as AI), but it does attempt to automate the human decision making process and that does make it a form of AI.
 
