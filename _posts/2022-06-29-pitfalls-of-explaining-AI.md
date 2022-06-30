@@ -35,12 +35,12 @@ ProPublica highlighted the systemic issues in our criminal justice system, but p
 
 And therein lies the solution: creating algorithms that are transparent and easy for people to interpret. Adding transparency directly into both the model and the way it’s used is the best direction moving forward. We need to create human understanding of AI algorithms along the entire process: from the developers, to users in the criminal justice system including judges, and even the people impacted like the defendants.
 
-[^1] The terms AI and algorithm are used interchangeably in this post.
+[^1]: The terms AI and algorithm are used interchangeably in this post.
 
-[^2] COMPAS is not a machine or deep learning model (what we typically think of as AI), but it does attempt to automate the human decision making process and that does make it a form of AI.
+[^2]: COMPAS is not a machine or deep learning model (what we typically think of as AI), but it does attempt to automate the human decision making process and that does make it a form of AI.
 
 ## References
-1. Rebecca Wexler. “Opinion | When a Computer Program Keeps You in Jail.” *New York Times*. 2017 June 13. Accessed 2022 March 8. https://www.nytimes.com/2017/06/13/opinion/how-computers-are-harming-criminal-justice.html
+1. Rebecca Wexler. “Opinion \| When a Computer Program Keeps You in Jail.” *New York Times*. 2017 June 13. Accessed 2022 March 8. https://www.nytimes.com/2017/06/13/opinion/how-computers-are-harming-criminal-justice.html
 
 2. Sam Corbett-Davies, Emma Pierson, Avi Feller and Sharad Goel. “A computer program used for bail and sentencing decisions was labeled biased against blacks. It’s actually not that clear.” *Washington Post*. October 17, 2016. Accessed 2022 March 9. https://www.washingtonpost.com/news/monkey-cage/wp/2016/10/17/can-an-algorithm-be-racist-our-analysis-is-more-cautious-than-propublicas/
 
