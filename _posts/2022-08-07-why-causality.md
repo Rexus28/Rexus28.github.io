@@ -52,9 +52,14 @@ This post is only an introduction on why causality is needed to answer certain q
 
 ## References
 [1] Kahneman, Daniel. _Thinking, Fast and Flow_. Macmillan, 2011.
+
 [2] Pearl, Judea, and Dana Mackenzie. _The Book of Why: The New Science of Cause and Effect_. Hachette UK, 2018.
+
 [3] "Causality for Machine Learning". _Cloudera Fast Forward_. 2020. https://ff13.fastforwardlabs.com/
+
 [4] Bickel, Peter J., Eugene A. Hammel, and J. William O'Connell. "Sex Bias in Graduate Admissions: Data from Berkeley: Measuring bias is harder than is usually assumed, and the evidence is sometimes contrary to expectation." _Science_ 187.4175 (1975): 398-404.
+
 [5] Sharma, Amit and Kiciman, Emre. "DoWhy | An end-to-end library for causal inference". https://py-why.github.io/dowhy/v0.8/index.html
+
 [6] Shawhin Talebi. "Causality: An Introduction". _Medium_. 2021. https://towardsdatascience.com/causality-an-introduction-f8a3f6ac4c4a
 
