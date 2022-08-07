@@ -1,3 +1,6 @@
+---
+mermaid: true
+---
 # Why We Need Causality
 ## Introduction
 We understand the world around us through causes, not statistics and probabilities. Our minds are designed to understand why something happened and not the odds of it happening [1]. Which is why we struggle with probabilities and seek to assign a cause to an event. Thinking causally allows our minds to pack knowledge down efficiently for ease of remembering and applying to new situations [2, 3]. But causality is just a framework, it requires evidence, or data; and the way we look at that data plays a role in how we interpret the world around us.
