@@ -15,10 +15,10 @@ Statistics is about analyzing data for patterns and correlations. When the data 
 
 The goal of causality is to go one level deeper into the process that created the data. Judea Pearl developed a graphical way of codifying existing knowledge and assumptions, which allows us to build a model of the process [2]. A basic example is "X causes Y" and a graph where an arrow goes from X to Y as shown below.
 
-```mermaid
+<div class="mermaid">
 graph LR;
 	X-->Y;
-```
+</div>
 
 This causal graph not only informs our analysis, but lets us easily communication our assumptions to others. Better yet, as Pearl showed, the graph allows us to test these assumptions using data [2]. The caveats, however, are that a correct analysis is dependent on the correctness of the graph and that multiple graphs could explain the same data [2, 5]. The upside is that we can understand how changes will impact the outcome and ask questions like: [5]
 		- Will a change improve the outcome?
@@ -29,12 +29,12 @@ This causal graph not only informs our analysis, but lets us easily communicatio
 ## Applying Causality to the Berkeley Study
  In the Berkeley study there are three variables: gender, department, and admission. We know that neither department nor admission can effect gender, that is purely genetics. We are interested in the effect of gender on admission, so we assume that relationship exists. Bickel showed a relationship between gender and department, and while this is more likely an influence of society on gender, we assume there is a causal relationship. We end up with the following causal graph of the problem [2].
 
-```mermaid
+<div class="mermaid">
 graph LR;
 	G(Gender) --> D(Department);
 	G --> A(Admission);
 	D --> A;
-```
+</div>
 
 This graph codifies our knowledge and assumptions, but more importantly, it shows the process that created the data. Gender has a direct effect on admission and an indirect effect mediated through department. The total effect is the combination of both direct and indirect effects, and this is what Bickel calculated when using the aggregate data [2]. 
 
