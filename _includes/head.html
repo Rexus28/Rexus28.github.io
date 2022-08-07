@@ -49,5 +49,9 @@
   }
   window.onload = wrap_img;
   </script>
+  
+  {% if page.mermaid %}
+    {% include mermaid.html %}
+  {% endif %}
 
 </head>
