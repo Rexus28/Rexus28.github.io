@@ -52,7 +52,7 @@ The details of such analysis are outside the scope of this post, but I hope that
 Statistics is more like a photo of the world. It shows us important insights, but it is incomplete and can be misinterpretation. Causality is like trying to understand the 3D structure of the world that created that photo. Causality, however, is not a silver bullet as multiple causal graphs can explain the same data and we are dependent on correct knowledge and assumptions used to construct the graph. This makes causality harder to implement than statistics, there is no one-size-fits-all-problems approach, but in the end it allows us to answer more important questions.
 
 ## Further Resources
-This post is only an introduction on why causality is needed to answer certain questions and only covers some of the basics. Causality, or what Pearl refers to as "the new science of cause and effect", is a burgeoning field of study that includes more topics than I could even list in a post of this length. To get started, I recommend these Medium posts by Shawhin Talebi ([link 1](https://towardsdatascience.com/causality-an-introduction-f8a3f6ac4c4a), [link 2](https://towardsdatascience.com/causal-inference-962ae97cefda), [link 3](https://towardsdatascience.com/causal-discovery-6858f9af6dcb)) as an introduction to the topics of causality. I also recommend Judea Pearls' [*The Book of Why*](https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9780465097616/) for a much more comprehensive introduction.
+This post is only an introduction on why causality is needed to answer certain questions and only covers some of the basics. Causality, or what Pearl refers to as "the new science of cause and effect", is a burgeoning field of study that includes more topics than I could even list in a post of this length. To get started, I recommend these Medium posts by Shawhin Talebi ([link 1](https://towardsdatascience.com/causality-an-introduction-f8a3f6ac4c4a), [link 2](https://towardsdatascience.com/causal-inference-962ae97cefda), [link 3](https://towardsdatascience.com/causal-discovery-6858f9af6dcb)) as an introduction to the topics of causality. I also recommend Judea Pearl's [*The Book of Why*](https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9780465097616/) for a much more comprehensive introduction.
 
 ## References
 [1] Kahneman, Daniel. _Thinking, Fast and Flow_. Macmillan, 2011.
@@ -63,7 +63,7 @@ This post is only an introduction on why causality is needed to answer certain q
 
 [4] Bickel, Peter J., Eugene A. Hammel, and J. William O'Connell. "Sex Bias in Graduate Admissions: Data from Berkeley: Measuring bias is harder than is usually assumed, and the evidence is sometimes contrary to expectation." _Science_ 187.4175 (1975): 398-404.
 
-[5] Sharma, Amit and Kiciman, Emre. "DoWhy | An end-to-end library for causal inference". https://py-why.github.io/dowhy/v0.8/index.html
+[5] Sharma, Amit and Kiciman, Emre. "DoWhy \| An end-to-end library for causal inference". https://py-why.github.io/dowhy/v0.8/index.html
 
 [6] Shawhin Talebi. "Causality: An Introduction". _Medium_. 2021. https://towardsdatascience.com/causality-an-introduction-f8a3f6ac4c4a
 
