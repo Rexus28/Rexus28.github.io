@@ -21,13 +21,14 @@ I'm not saying technology cannot help us solve difficult problems, but rather ou
 
 Modern philosophy was born during the start of the [Scientific Revolution](https://en.wikipedia.org/wiki/Scientific_Revolution), as long existing notions of science, especially the Ptolemaic (or Earth centered) model of the universe, were proven wrong. People didn't know what to think of the world, and from this uncertainty Descartes started thinking about what we can actually know about the universe. This was not an intellectual exercise, Descartes was trying to form a method for building trust in scientific progress, in light of uncertainty, so it could be used as a base for future knowledge [^4].
 
-Because philosophical problems deal so much uncertainty, they can provide the tech industry a framework for approaching difficult problems. The whole field of philosophy is built on addressing big, important problems that other disciplines either can't or haven't answered yet. In fact, it was Bertrand Russell that said the goal philosophy is not to provide definite answers but to provide a way for us to freely think outside the confines of dogma [^5].
+Because philosophical problems deal so much with uncertainty, they can provide the tech industry a framework for approaching difficult problems. The whole field of philosophy is built on addressing big, important problems that other disciplines either can't or haven't answered yet. In fact, it was Bertrand Russell that said the goal of philosophy is not to provide definite answers but to provide a way for us to freely think outside the confines of dogma [^5].
 
 What better application than technology, where the traditional forms of problem solving have created discriminating and destructive algorithms when looking at people. A willingness to question the norms and ask difficult questions is required. If the tech industry were more flexible to value the topics of the liberal arts, they could bring about the long-term and societal improvements that they intend to have.
 
 
-[^1]: https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G
-[^2]: https://www.aclu.org/blog/womens-rights/womens-rights-workplace/why-amazons-automated-hiring-tool-discriminated-against
+[^1]: Jeffrey Dastin. "Amazon scraps secret AI recruiting tool that showed bias against women". *Reuters*. 2018 Oct 10. [https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-        scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G)
+[^2]: Rachel Goodman. "Why Amazon’s Automated Hiring Tool Discriminated Against Women". *ACLU*. 2018 Oct 12. [https://www.aclu.org/blog/womens-rights/womens-rights-workplace/why-amazons-automated-hiring-tool-discriminated-against](https://www.aclu.org/news/womens-rights/why-amazons-automated-hiring-tool-discriminated-against)
 [^3]: O'neil, Cathy. _Weapons of Math Destruction: How big data increases inequality and threatens democracy_. Broadway books, 2016.
-[^4]:https://www.philosophizethis.org/podcast/descartes-dl6x8
-[^5]: Russell, Bertrand. _The Problems of Philosophy_. Project Gutenberg, 2009. https://www.gutenberg.org/files/5827/5827-h/5827-h.htm
+[^4]: Stephen West. "Episode #028 - Descartes pt. 1 - A little context". *Philosophize This!*. [https://www.philosophizethis.org/podcast/descartes-dl6x8]( https://www.philosophizethis.org/podcast/descartes-dl6x8)
+[^5]: Russell, Bertrand. _The Problems of Philosophy_. Project Gutenberg, 2009. [https://www.gutenberg.org/files/5827/5827-h/5827-h.htm](https://www.gutenberg.org/files/5827/5827-h/5827-h.htm)
+
